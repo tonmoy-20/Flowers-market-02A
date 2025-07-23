@@ -1,0 +1,54 @@
+/*common*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Serif";
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+/*header*/
+.head-logo-left {
+  width: 140px;
+  height: 85px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+}
+
+.navbar ul li a {
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+}
+.Home {
+  font-weight: bold;
+  color: rgb(37, 36, 50);
+}
+
+.Cart {
+  font-weight: 500;
+  color: rgb(0 0 0);
+}
+.fa-solid {
+  color: black;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 22px 0px 22px 0px;
+  height: 60px;
+}
