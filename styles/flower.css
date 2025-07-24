@@ -8,7 +8,7 @@
 }
 
 .body {
-  background-color: #f5f8ff;
+  background-color: rgb(245, 248, 255);
 }
 .container {
   max-width: 1140px;
@@ -206,3 +206,105 @@
 .lets-deal {
   margin-top: 100px;
 }
+
+/*offer section*/
+.offer-card-1 {
+  position: relative;
+}
+
+.offer-card-content {
+  position: absolute;
+  top: 55px;
+  left: 65px;
+  bottom: -65px;
+  text-align: center;
+  color: white;
+  font-size: 1.28rem;
+}
+.offer-card-content a {
+  color: white;
+}
+.deal-img {
+  border: none;
+  border-radius: 25px;
+}
+.card-1-1 {
+  margin-bottom: 15px;
+}
+.offer-card-1-2 {
+  height: 423px;
+}
+
+
+.offer-card-right {
+  width: 750px;
+  position: relative;
+}
+.deal-img-right {
+  border: none;
+  border-radius: 20px;
+}
+.offer-card-content-right a {
+  color: white;
+}
+.offer-card-content-right {
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 420px;
+}
+.offer-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 120px;
+}
+.offer-card-container a :hover {
+  color: chocolate;
+}
+/*join bunch section*/
+.bunch-heading {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  height: 68px;
+  margin-bottom: 23px;
+}
+.email {
+  width: 644px;
+  height: 50px;
+  color: color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 8px 20px 8px 20px;
+
+}
+.btn-subscribe{
+  box-sizing: border-box;
+  width: 186px;
+max-height: 55px;
+padding: 20px 50px 20px 50px;
+justify-content: center;
+gap:-10px;
+background-color: rgb(233, 90, 8);
+border: none;
+left: 10px;
+color: white;
+font-weight: 600;
+}
+.btn-subscribe:hover{
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.join-the-bunch {
+  margin-top: 120px;
+  padding:199px 200px;
+  height: 533px;
+  background-image: url(../assets/news-letter-bg.png);
+  text-align: center;
+  align-items: center;
+}
+
+/*footer section*/
