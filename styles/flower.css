@@ -371,6 +371,7 @@ text-decoration: none;
   width: 570px;
   height: 355px;
   margin-bottom: 20px;
+  border: none;
 }
 .banner-section {
   display: flex;
