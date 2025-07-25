@@ -370,8 +370,9 @@ text-decoration: none;
   max-width: 100%;
   width: 570px;
   height: 355px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   border: none;
+  left: 0;
 }
 .banner-section {
   display: flex;
@@ -379,12 +380,19 @@ text-decoration: none;
   align-items: center;
   margin-top: 50px;
 }
+/*our plant*/
 .our-plants-title {
   font-size: 45px;
   font-weight: 700;
   text-align: center;
   margin-bottom: 16px;
   margin-top: 50px;
+}
+.our-plants{
+  margin:120px auto;
+  align-items: center;
+  text-align: center;
+  
 }
 /*card section*/
 .card-container {
@@ -393,6 +401,7 @@ text-decoration: none;
   gap: 25px;
   margin-bottom: 60px;
 }
+/*after card*/
 .after-card {
   display: flex;
   flex-direction:column;
