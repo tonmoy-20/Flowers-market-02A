@@ -416,6 +416,7 @@ text-decoration: none;
   position: relative;
 }
 .deal-img-right {
+  filter: brightness(60%);
   width: 380px;
   border: none;
   border-radius: 20px;
